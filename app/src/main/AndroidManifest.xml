@@ -24,7 +24,6 @@
         <activity android:name=".ui.list.ListProdutosActivity" />
         <activity android:name=".ui.sobre.SobreActivity"></activity>
         <activity android:name=".ui.signup.SignUpActivity" />
-        <activity android:name=".ui.result.ResultActivity" />
         <activity android:name=".ui.login.LoginActivity" />
         <activity android:name=".ui.main.MainActivity" />
     </application>
