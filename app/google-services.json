@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "762343102762",
+    "firebase_url": "https://trabalhomobile-2681e.firebaseio.com",
+    "project_id": "trabalhomobile-2681e",
+    "storage_bucket": "trabalhomobile-2681e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762343102762:android:8fabe2026e5b9565c5e653",
+        "android_client_info": {
+          "package_name": "br.fiap.trabalhomobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762343102762-gv7vldo9bdqb7qgodsssnlcb32cc137v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.fiap.trabalhomobile",
+            "certificate_hash": "0fb5eaee4ce52563f712f0365246d83d39b71ace"
+          }
+        },
+        {
+          "client_id": "762343102762-cp6lp72hgbnhteppdlkpeefa09sqbljn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUDgL9tK-iOgwQ3-kE4QNbYyLLjY3foB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762343102762-cp6lp72hgbnhteppdlkpeefa09sqbljn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

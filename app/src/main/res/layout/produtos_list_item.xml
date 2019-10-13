@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivProduto"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/cabide"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvProdutoNome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Cabide"
+        android:textColor="#a62c00"
+        app:layout_constraintEnd_toEndOf="@+id/tvProdutoPreco"
+        app:layout_constraintStart_toStartOf="@+id/tvProdutoPreco"
+        app:layout_constraintTop_toBottomOf="@+id/tvProdutoPreco" />
+
+    <TextView
+            android:textColor="#a62c00"
+            android:text="#001"
+            android:textSize="12sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvProdutoPreco"
+            app:layout_constraintTop_toBottomOf="@+id/ivProduto"
+            app:layout_constraintStart_toStartOf="@+id/ivProduto"
+            app:layout_constraintEnd_toEndOf="@+id/ivProduto" app:layout_constraintHorizontal_bias="0.0"
+    />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btExcluirForm"
+        style="@style/custom_button"
+        android:layout_marginStart="8dp"
+        android:padding="12dp"
+        android:text="X"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvProdutoNome"
+        app:layout_constraintVertical_bias="0.494" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
